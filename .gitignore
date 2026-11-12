@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# اطلاعات حساس (توکن، شماره تماس و...) — فقط config.example.json در گیت ذخیره می‌شود
+config.json
+
+# دیتابیس محلی (اطلاعات کاربران و سفارش‌ها)
+shop.db
+shop.db-shm
+shop.db-wal
+*.db
+
+# فایل‌های محلی دیگر
+logo.jpg
+*.log
+.DS_Store
+Thumbs.db
